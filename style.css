@@ -1,0 +1,63 @@
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      height: 200vh; /* Make the page scrollable */
+      background-color: white;
+      color: black; /* Default text color */
+      transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transitions */
+    }
+
+    /* Navbar Styling */
+    nav {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background-color: rgba(0, 0, 0, 0.8);
+      padding: 15px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      z-index: 1000;
+      transition: color 0.3s ease;
+    }
+
+    nav .logo {
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav ul li {
+      margin: 0 15px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: white; /* Default navbar link color */
+      font-size: 18px;
+      transition: color 0.3s ease;
+    }
+
+    /* Section Styling */
+    section {
+      padding: 80px 20px;
+      text-align: center;
+    }
+
+    .header {
+      font-size: 36px;
+      margin-top: 60px;
+    }
+
+    .content {
+      margin-top: 30px;
+      font-size: 20px;
+      line-height: 1.6;
+    }
+  
